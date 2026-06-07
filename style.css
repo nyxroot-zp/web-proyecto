@@ -1,16 +1,26 @@
-.contenedor-principal {
-    display: flex;
-    max-width: 1000px;
-    margin: auto;
+body {
+    background-color: #121212;
+    color: #e0e0e0
+    front-family: 'Segoe UI', sans-serif;
 }
 
-.sidebar {
-    width: 250px;
-    border-right: 2px solid #00ff41;
-    padding: 20px;
+h1, h2, h3 {
+    color: #00d4ff; 
+    text-transform: uppercase
+    letter-spacing: 2px;
 }
 
-.Contenido {
-    padding: 20px;
-    flex: 1;
+nav {
+    color: #eb3b75;
+     text-decoration: none;
+    front-weight: bold;
 }
+p {
+    color: #f5fdff;
+
+}
+ .sidebar {
+    border-right: 1px solid #333;
+
+ }
+
