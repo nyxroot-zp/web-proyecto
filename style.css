@@ -10,10 +10,18 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
-nav {
-    color: #eb3b75;
-     text-decoration: none;
-    front-weight: bold;
+nav a {
+    color: #cccccc; 
+    text-decoration: underline;
+    padding: 8px 0;  
+}
+
+nav a:hover {
+    color: #00d4ff;
+    text-decoration: underline;
+}
+nav ul {
+    color: #cccccc; 
 }
 p {
     color: #f5fdff;
@@ -23,4 +31,5 @@ p {
     border-right: 1px solid #333;
 
  }
+ footer { text-align: center; margin-top: 80px; color: #555; font-size: 0.8em; border-top: 1px solid #333; padding-top: 20px;}
 
