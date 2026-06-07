@@ -1,70 +1,53 @@
 body {
     background-color: #121212;
     color: #e0e0e0
-    front-family: 'Segoe UI', sans-serif;
-}
+    front-family: 'Segoe UI', sans-serif;}
 
 h1, h2, h3 {
     color: #06bce0; 
     text-transform: uppercase
-    letter-spacing: 2px;
-}
+    letter-spacing: 2px;}
 
 nav a {
     color: #cccccc; 
     text-decoration: underline;
-    padding: 8px 0;  
-}
+    padding: 8px 0;  }
 
 nav a:hover {
     color: #00d4ff;
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 nav ul {
-    color: #cccccc; 
-}
+    color: #cccccc; }
 p {
-    color: #f5fdff;
-
-}
+    color: #f5fdff;}
  .sidebar {
-    border-right: 1px solid #333;
-
- }
+    border-right: 1px solid #333;}
  footer { text-align: center; margin-top: 80px; color: #555; font-size: 0.8em; border-top: 1px solid #333; padding-top: 20px;}
 
 .video-cyber {
     display: flex;
     justify-content: center;
     justify-items: center;
-    margin: 40px 0;
-}
+    margin: 40px 0;}
 
-.logo {
-    width: 50px;
-    vertical-align: middle;
-}
+.logo {width: 60px;
+height: auto;
+vertical-align: middle;}
 .logo header {
     display: flex; 
     align-items: center;
-    gap: 20px;
-}
-.logo {
-    widht: 120px;
-    height: auto;
-}
+    gap: 20px}
+
 header h1 {
     white-space: nowrap; 
-    margin: 0;
-}
+    margin: 0;}
 
 body {
     background: radial-gradient(circle at top right, #0a192f, #000);
     color: #e6f1ff;
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
 .log-caja {
     background: #000;
@@ -74,15 +57,33 @@ body {
     border: 1px solid #333;
     border-radius: 5px;
     margin: 20px 0;
-    box-shadow: 0 0 10px rgba (0, 255, 0, 0.1);
-}
+    box-shadow: 0 0 10px rgba (0, 255, 0, 0.1);}
 
 .entrada-log {
     margin: 5px 0;
-    font-size: 0.9em;
-}
+    font-size: 0.9em;}
 .log-caja:hover{
     border-color: #00d4ff;
     box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
-    transition: 0.3s ease;
+    transition: 0.3s ease;}
+
+@media (max-width: 768px) {
+    .contenedor-principal {
+        flex-direction: column;
+    }
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #333;
+        margin-bottom: 20px;
+    }
+    .video-cyber video {
+        width: 100%;
+    }
+}
+body {
+    background: radial-gradient(circle at top right, #0a192f, #000);
+    min-height: 100vh;
+    mergin: 0;
+    color: #e6f1ff;
+    font-family: 'Segoe UI', sans-serif;
 }
