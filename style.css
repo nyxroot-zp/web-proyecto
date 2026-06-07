@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #00d4ff; 
+    color: #06bce0; 
     text-transform: uppercase
     letter-spacing: 2px;
 }
@@ -33,3 +33,56 @@ p {
  }
  footer { text-align: center; margin-top: 80px; color: #555; font-size: 0.8em; border-top: 1px solid #333; padding-top: 20px;}
 
+.video-cyber {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px 0;
+}
+
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+.logo header {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+.logo {
+    widht: 120px;
+    height: auto;
+}
+header h1 {
+    white-space: nowrap; 
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle at top right, #0a192f, #000);
+    color: #e6f1ff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.log-caja {
+    background: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba (0, 255, 0, 0.1);
+}
+
+.entrada-log {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+.log-caja:hover{
+    border-color: #00d4ff;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+    transition: 0.3s ease;
+}
