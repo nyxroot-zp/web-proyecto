@@ -87,3 +87,33 @@ body {
     color: #e6f1ff;
     font-family: 'Segoe UI', sans-serif;
 }
+
+.tech-stack {
+    padding: 20px;
+    margin-top: 50px;
+}
+.grid-herramientas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+.tarjeta {
+    background: rgba (255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: #e6f1ff;
+    transition: 0.3s ease;
+
+.tarjeta:hover {
+    background: rgba (0, 212, 255, 0.1);
+    border-color: #00d4ff;}
+
+@media (min-width: 768px) {
+    .grid-herramientas {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
