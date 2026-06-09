@@ -373,6 +373,18 @@ CSS DE LA PAGINA DE ACERCA DE MI -------------------------------
     gap: 32px;
     align-items: start;
 }
+
+@media (max-width: 768px) {
+    .nombre-seccion {
+        grid-template-columns: 1fr;
+    }
+
+    .foto-nyx {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+}
  
 .foto-nyx {
     width: 100%;
@@ -431,7 +443,6 @@ CSS DE LA PAGINA DE ACERCA DE MI -------------------------------
     margin-bottom: 8px;
 }
  
-/* --- Responsive --- */
 @media (max-width: 768px) {
     .nombre-seccion {
         grid-template-columns: 1fr;
