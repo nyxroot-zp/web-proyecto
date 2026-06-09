@@ -2,53 +2,64 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Privacidad y Seguridad en la web</title>
-        <link rel="stylesheet" href="style.css">    
-        <link rel="icon" href="favicon.ico" type="image/x-icon">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nyx Root // Security Research</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body>
+
         <header>
-            <div class="logo header">
+            <div class="header-inner">
                 <img src="Icono Nyx Root.png" alt="Logo Nyx Root" class="logo">
-                <h1>Privacidad y Seguridad en la web</h1>
+                <h1>Nyx Root // Security Research</h1>
             </div>
         </header>
+
         <div class="contenedor-principal">
+
             <nav class="sidebar">
-                <h3>Temas</h3>
+                <h3>Módulos</h3>
                 <ul>
-                    <li><a href="#">Introducción</a></li>
-                    <li><a href="#">¿Qué es TAILS OS?</a></li>
-                    <li><a href="#">Cifrado</a></li>
+                    <li><a href="tor-darkweb.html">Tor &amp; Dark Web</a></li>
+                    <li><a href="#">Aircrack-ng</a></li>
                 </ul>
             </nav>
-            <main class="Contenido">
-                <h2>Nyx Root - Terminal de auditoria</h2>
+
+            <main class="contenido">
+                <h2>Nyx Root — Terminal de Auditoría</h2>
+
                 <div class="log-caja">
                     <p class="entrada-log">[08:06:2026 22:24] System_Init: OK</p>
                     <p class="entrada-log">[08:06:2026 11:11] Nyx_Root_Session: Active</p>
-                    <p class="entrada-slog">[08;06;2026 02:04] Conexión Segura: Establecida</p>
+                    <p class="entrada-log">[08:06:2026 02:04] Conexión_Segura: Establecida</p>
                 </div>
-                <p>Este es mi espacio para documentar mis aprendizajes en auditoria de sistemas y Ciberseguridad.</p>
+
+                <p>Este es mi espacio para documentar mis aprendizajes en auditoría de sistemas y ciberseguridad.</p>
+
+                <div class="video-cyber">
+                    <video width="100%" controls poster="">
+                        <source src="Cyber.mp4" type="video/mp4">
+                        Tu navegador no soporta el formato de vídeo.
+                    </video>
+                </div>
+
+                <section class="tech-stack">
+                    <h3>Entorno de Auditoría</h3>
+                    <div class="grid-herramientas">
+                        <div class="tarjeta">Wireshark</div>
+                        <div class="tarjeta">Nmap</div>
+                        <div class="tarjeta">Kali Linux</div>
+                        <div class="tarjeta">Aircrack-ng</div>
+                    </div>
+                </section>
+
             </main>
         </div>
-        <div class="video-cyber">
-            <video width="50%" controls>
-                <source src="Cyber.mp4" type="video/mp4">
-                Tu navegador no soporta el formato de video
-            </video>
-            <section class="tech-stack">
-                <h3> Entorno de Auditoría</h3>
-                <div class="grid-herramientas">
-                    <div class="tarjeta">Wireshark</div>
-                    <div class="tarjeta">Nmap</div>
-                    <div class="tarjeta">Kali Linux</div>
-                    <div class="tarjeta">Aircrack-ng</div>
-                </div>
-            </section>
-        </div>
+
         <footer>
-            <p>&copy; 2026 - Nyx Root | Auditoría de Sistemas</p>
+            <p>&copy; 2026 — Nyx Root | Auditoría de Sistemas</p>
         </footer>
+
     </body>
- </html>
+</html>
