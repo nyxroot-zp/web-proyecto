@@ -87,6 +87,7 @@ h2, h3 {
  
 .log-caja {
     background: #000;
+    overflow-x: auto;
     color: #00ff00;
     font-family: 'Courier New', monospace;
     padding: 16px;
@@ -112,7 +113,8 @@ p {
     line-height: 1.6;
 }
 .video-cyber {
-    margin: 50px 200px;
+    margin: 32px auto;
+    max-width: 640px;
 }
  
 .video-cyber video {
@@ -174,7 +176,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
  
-    h1 {
+    h1, h2 {
         font-size: 1em;
         white-space: normal;
     }
