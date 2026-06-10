@@ -196,8 +196,7 @@ footer {
     color: #556;
 }
 
-CSS DE LA PAGINA DE DARkwEB TAMBIEN PARA VIDEOS -------------------------------
-
+/* CSS DE LA PAGINA DE DARKWEB */ 
 .sidebar ul li a.modulo-activo {
     color: #00d4ff;
     background: rgba(0, 212, 255, 0.08);
@@ -325,8 +324,7 @@ CSS DE LA PAGINA DE DARkwEB TAMBIEN PARA VIDEOS -------------------------------
 }
  
 
-CSS DE LA PAGINA DE ACERCA DE MI -------------------------------
-
+/* CSS DE LA PAGINA DE ACERCA DE MI */
 .sidebar-seccion {
     margin-bottom: 32px;
 }
