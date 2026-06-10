@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aircrack-ng // Nyx Root</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+
+        <header>
+            <div class="header-inner">
+                <img src="Icono Nyx Root.png" alt="Logo Nyx Root" class="logo">
+                <h1>Nyx Root // Security Research</h1>
+            </div>
+        </header>
+
+        <div class="contenedor-principal">
+
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="index.html">← Dashboard</a></li>
+                </ul>
+                <h3>Módulos</h3>
+                <ul>
+                    <li><a href="tor-darkweb.html">Tor &amp; Dark Web</a></li>
+                    <li><a href="aircrack.html" class="modulo-activo">Aircrack-ng</a></li>
+                </ul>
+            </nav>
+
+            <main class="contenido">
+
+                <div class="modulo-header">
+                    <span class="modulo-badge">[MÓDULO ACTIVO]</span>
+                    <h2>Aircrack-ng</h2>
+                </div>
+
+                <!-- Info general -->
+                <section class="info-bloque">
+                    <div class="info-columna">
+                        <h3>¿Qué es Aircrack-ng?</h3>
+                        <p>Suite completa de herramientas para auditoría de redes WiFi. Permite capturar tráfico, analizar paquetes y evaluar la seguridad de redes inalámbricas en entornos controlados.</p>
+                    </div>
+                    <div class="info-columna">
+                        <h3>airmon-ng</h3>
+                        <p>Activa el modo monitor en la tarjeta de red. Imprescindible como primer paso — sin modo monitor no es posible capturar paquetes de redes ajenas.</p>
+                    </div>
+                    <div class="info-columna">
+                        <h3>airodump-ng</h3>
+                        <p>Captura y muestra en tiempo real las redes WiFi cercanas y los dispositivos conectados. Permite filtrar por red objetivo y guardar el tráfico capturado.</p>
+                    </div>
+                    <div class="info-columna">
+                        <h3>aireplay-ng</h3>
+                        <p>Genera e inyecta paquetes en la red. Se usa para forzar desautenticaciones y capturar el handshake necesario para el análisis posterior.</p>
+                    </div>
+                </section>
+
+                <!-- Vídeo o imagen destacada -->
+                <section class="video-modulo">
+                    <h3>Entorno de trabajo</h3>
+                    <div class="video-cyber">
+                        <video width="100%" controls>
+                            <source src="assets/aircrack-intro.mp4" type="video/mp4">
+                            Tu navegador no soporta el formato de vídeo.
+                        </video>
+                    </div>
+                </section>
+
+                <!-- Grabaciones -->
+                <section class="grabaciones">
+                    <h3>Mis grabaciones</h3>
+                    <p class="grabaciones-desc">Serie grabada por Nyx Root. Auditoría WiFi en entorno controlado usando la suite Aircrack-ng sobre Kali Linux.</p>
+
+                    <div class="video-lista">
+
+                        <div class="video-parte">
+                            <div class="parte-header">
+                                <span class="parte-num">[PARTE 1]</span>
+                                <span class="parte-titulo">Introducción y configuración del entorno</span>
+                            </div>
+                            <iframe
+                                width="100%"
+                                src="ENLACE_PARTE_1"
+                                allowfullscreen
+                                style="border: none; display: block; aspect-ratio: 16/9; height: auto;">
+                            </iframe>
+                        </div>
+
+                        <div class="video-parte">
+                            <div class="parte-header">
+                                <span class="parte-num">[PARTE 2]</span>
+                                <span class="parte-titulo">Captura de handshake y análisis</span>
+                            </div>
+                            <iframe
+                                width="100%"
+                                src="ENLACE_PARTE_2"
+                                allowfullscreen
+                                style="border: none; display: block; aspect-ratio: 16/9; height: auto;">
+                            </iframe>
+                        </div>
+
+                    </div>
+                </section>
+
+            </main>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 — Nyx Root | Auditoría de Sistemas</p>
+        </footer>
+
+    </body>
+</html>
